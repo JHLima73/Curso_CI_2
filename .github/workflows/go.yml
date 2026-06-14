@@ -11,6 +11,7 @@ jobs:
   test:
     runs-on: ${{ matrix.os }}
     env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       HOST: localhost
       PORT: 5432
       USER: root
