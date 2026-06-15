@@ -51,5 +51,5 @@ jobs:
 
   docker:
     needs: build
-    uses: ./.githug/workflows/Docker.yml
+    uses: ./.github/workflows/Docker.yml
     secrets: inherit
