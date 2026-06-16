@@ -11,7 +11,7 @@ jobs:
   test:
     runs-on: ${{ matrix.os }}
     env:
-      HOST: localhost
+      HOST: host.docker.internal
       PORT: 5432
       USER: root
       PASSOWRD: root
